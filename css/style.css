@@ -51,13 +51,13 @@ body {
 	text-shadow: 2px 2px #c3c3c3;
 }
 
-.qestionClass {
+.questionClass {
 	display: none;
 	padding: 5% 0;
 }
 
-.qestionClass > h1,
-.qestionClass > p,
+.questionClass > h1,
+.questionClass > p,
 .answerOptions
  {
 	background-color: rgba(0, 0, 0,0.29);
@@ -67,7 +67,7 @@ body {
 	color: rgb(80, 79, 79);
 }
 
-.qestionClass > p {
+.questionClass > p {
 	font-size: 16px;
 }
 

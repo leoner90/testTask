@@ -24,7 +24,7 @@
         while($row = $result->fetch_assoc()){
           $i++; 
           ?>
-          <div class="qestionClass">
+          <div class="questionClass">
             <h1> Question No <?php  echo $i ?> / <?php echo $count ?></h1>
             <p> <?php echo $row['Question'] ?> </p>
             <div class="answerOptions">

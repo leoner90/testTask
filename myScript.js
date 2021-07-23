@@ -1,10 +1,12 @@
+//onLoad show first question
 $(window).load(function() {
-  $('.qestionClass').eq(0).show();
+  $('.questionClass').eq(0).show();
 });
-
+//e = event - prevent from default form action
+//show next question
 function nextQestion(e,index) {
   e.preventDefault();
-  $('.qestionClass').eq(index - 1).hide();
-  $('.qestionClass').eq(index).show();
+  $('.questionClass').eq(index - 1).hide();
+  $('.questionClass').eq(index).show();
 }
  
