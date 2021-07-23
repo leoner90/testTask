@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Test Task</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/style.css">
+	<script src="https://code.jquery.com/jquery-1.12.4.js" integrity="sha256-Qw82+bXyGq6MydymqBxNPYTaUXXq7c8v3CwiYwLLNXU=" crossorigin="anonymous"></script>
+</head>
+<body>
+	<center>
+		<h1>Put Your Name And Start The Task</h1>
+		<form action="startTest.php" method="POST">
+			<p>
+				<label="Name">Name:</label>
+				<input type="text" name="name" id="firstName">
+			</p>
+			<p>
+				<label="Name">Surname:</label>
+				<input type="text" name="surname" id="lastName">
+			</p>
+			<p>
+				<input type="submit" name="submit" id="Sumbit" onclick="startTest()">
+			</p>
+		</form>
+	</center>
+</body>
+<script src="myScript.js"></script>
+
+</html>
