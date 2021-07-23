@@ -22,7 +22,7 @@
 					<input class="mainPageInput" type="text" name="surname" required>
 				</p>
 				<p>
-					<input class="mainPageInput btn btn-info" type="submit" name="submit" id="Sumbit" onclick="startTest()" value="START TEST">
+					<input class="mainPageInput btn btn-info" type="submit" value="START TEST">
 				</p>
 			</form>
 			</div>
